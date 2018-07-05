@@ -11,7 +11,6 @@ haproxy.jinja2:
 
 ```jinja2
 ...
-
 backend web
 ...
 {%  for inst in instances %}
