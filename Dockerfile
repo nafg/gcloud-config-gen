@@ -1,6 +1,6 @@
 FROM google/cloud-sdk:alpine
 
-RUN apk --update add jq py-pip && pip install --upgrade pip yasha
+RUN apk --update add docker jq py-pip && pip install --upgrade pip yasha
 
 COPY loop.sh /
 
